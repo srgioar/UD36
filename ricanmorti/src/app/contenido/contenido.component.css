@@ -1,0 +1,20 @@
+#chars-container{
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2.5%;
+    width: 22%;
+
+}
+
+#main-container{
+    text-align: center;
+}
+
+.char-container{
+    display: flex;
+    flex: 1;
+    margin-right: 4px;
+    width: auto;
+    height: 260px;
+    border: 1px solid rgb(59, 59, 59);
+}

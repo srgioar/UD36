@@ -1,0 +1,23 @@
+<p>CONTENIDO</p>
+<p>PERSONAJES</p>
+
+<!-- NGFor para pintar los necesarios -->
+<div id="main-container">
+<div id="chars-container" *ngFor="let item of arrayPersonajes">
+    <div class="char-container">
+    <img src="{{item.image}}" />
+    <br>
+    <p></p>
+    <div>{{item.id}}</div>
+    <br>
+    <div id="char-name">{{item.name}}</div>
+    <br>
+    <div id="char-status">{{item.status}}</div>
+    <br>
+    <div>{{item.species}}</div>
+    <br>
+    <div id="location">{{item.origin.name}}</div>
+    <br>
+</div>
+</div>
+</div>
